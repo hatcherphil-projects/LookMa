@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  -webkit-tap-highlight-color: transparent;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  background: #0F0F0F;
+  margin: 0;
+  padding: 0;
+  overscroll-behavior: none;
+}
+
+input::placeholder {
+  color: #555555;
+}
+
+input:focus {
+  outline: none;
+}
